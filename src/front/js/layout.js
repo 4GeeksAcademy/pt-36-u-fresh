@@ -25,6 +25,20 @@ const Layout = () => {
                 <ScrollToTop>
                     <Navbar />
                     <Routes>
+                    
+                        <Route element={<h1>Este es el login</h1>} path="/login" />
+                        <Route element={<h1>Este es el signup</h1>} path="/signup" />
+                        <Route element={<h1>HOME</h1>} path="/home" />
+                        <Route element={<h1>drinks</h1>} path="/drinks" /> 
+                        <Route element={<h1>Countries </h1>} path="/countries" />
+                        <Route element={<h1>Best rated </h1>} path="/best-rated" /> 
+                        <Route element={<h1>zero sugars </h1>} path="/zero-sugars" />
+                        <Route element={<h1> </h1>} path="/countries" />
+                        <Route element={<h1> checkout </h1>} path="/checkout" />
+                        <Route element={<h1>contact</h1>} path="/contact" />
+                   
+                    
+
                         <Route element={<Home />} path="/" />
                         <Route element={<Demo />} path="/demo" />
                         <Route element={<Single />} path="/single/:theid" />
